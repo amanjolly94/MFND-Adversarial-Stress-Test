@@ -1,16 +1,3 @@
-Of course. The provided directory structure and `start.sh` script offer excellent, specific details about how the code is organized and executed. I have updated the `README.md` to reflect this, making the instructions much more precise and actionable.
-
-The main changes include:
-
-  * A new **Code Structure** section explaining the key directories.
-  * Updated **Setup and Installation** to include embedding weights.
-  * A completely revised **Running the Experiments** section that uses the `.yaml` configuration files and scripts shown in your `start.sh`, instead of placeholder commands.
-  * A new **Monitoring Training** section explaining the use of TensorBoard.
-
-Here is the updated `README.md`:
-
------
-
 # Beyond the Surface: Adversarial Stress Testing of Multimodal Fake News Detection Models with LLM-Driven Perturbations
 
 This repository contains the official implementation for the paper, "Beyond the Surface: Adversarial Stress Testing of Multimodal Fake News Detection Models with LLM-Driven Perturbations".
