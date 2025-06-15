@@ -1,0 +1,30 @@
+device: "cuda"
+logdir: "logs"
+checkpoints: "checkpoints"
+data:
+  name: "D1" 
+  img_root: "data/new_modified_data/D1/images"
+  data_path: "data/new_modified_data/D1/df1_modified.csv"
+  txt_col: "Text"
+  img_col: "local_url"
+  tar_col: "Binary"
+  idx_col: "Unnamed: 0"
+  batch_size: 8
+  num_workers: 4
+  max_len: 512
+  chunk_len: 200
+  overlap_len: 50
+model:
+  name: "BertVgg"
+  modality: "multi"
+  vocab_size: 0
+  dropout: 0.2
+  common_hidden_dim: 512
+  output_dim: 1
+training:
+  scheme: 2 # 0: base, 1: only attention, 2: attention with regularization
+  beta: 0.7 # high:low
+  margin: 0.2
+  epochs: 100
+  lr: 3e-5
+  warmup_steps: 0
