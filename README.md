@@ -10,7 +10,8 @@ This repository contains the official implementation for the paper, "Beyond the 
 
 In this work, we present a comprehensive and rigorous evaluation of three canonical Multimodal Fake News Detection (MFND) architectures—LongBERT-VGG, CNN-VGG, and LSTM-VGG—across three heterogeneous benchmark datasets. We go beyond conventional evaluation by subjecting these models to a broad suite of 17 adversarial attacks, including novel instruction-tuned Large Language Model (LLM)-generated perturbations from Llama 3 and DeepSeek[cite: 3, 5, 6, 36]. Our findings expose critical limitations in current MFND systems and highlight the urgent need for more robust architectures[cite: 10].
 
-[](https://www.google.com/search?q=./FND3_paper_els__Aman_Jolly_Copy_-4.pdf)
+![Untitled](https://github.com/user-attachments/assets/d2be1cf2-02aa-4011-bcec-d57ce0da6ff4)
+
 
 ## Key Contributions
 
